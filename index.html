@@ -3,20 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Markdown!</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>Rédigez en Markdown !</h1>
-     <p>Markdown, ça vous dit quelque chose ? Mais si, vous avez sûrement déjà dû voir ce mot quelque part sur certains sites.
-      <br>
-       😉 C'est un petit langage très simple qui permet d'écrire du HTML de façon raccourcie.
-       <br>
+
+
+      <h1 class="grostitre">Rédigez en Markdown !</h1>
+
+     <p></p>
+       Markdown, ça vous dit quelque chose ? Mais si, vous avez sûrement déjà dû voir ce mot quelque part sur certains sites.<br>
+       😉 C'est un petit langage très simple qui permet d'écrire du HTML de façon raccourcie.<br>
        On peut s'en servir sur certains forums (Le Site du Zéro, Stack Overflow...) ou pour rédiger des documentations (incontournable sur GitHub).<br>
 
        Les créateurs de Markdown trouvaient que ce n'était pas vraiment pratique de devoir mettre en forme manuellement des textes en HTML (ou, pire, en bbCode).<br>
        Imaginez, vous voulez poster un message sur un forum qui accepte uniquement le HTML et vous voulez écrire une liste à puces.<br>
        Vous allez devoir écrire à la main…
       </p>
-      <pre><code>
+      <pre class="code">
         <ul>
           &ltli>Le contenu de ma première puce &lt/li>
 
@@ -24,7 +27,7 @@
 
           &ltli>Et encore une autre puce &lt/li>
         </ul>
-      </code></pre>
+      </pre>
         <p>… et ça, juste pour faire une liste à puces, il faut avouer que ça devient vite lourdingue !</p>
        <img src="https://camo.githubusercontent.com/9a11280f4df8a974b522d449ad2747e55b00e200/68747470733a2f2f757365722e6f632d7374617469632e636f6d2f66696c65732f3432303030315f3432313030302f3432303236352e706e67" alt="camo">
        <p>John Gruber et Aaron Swartz ont donc créé un petit langage très simple appelé le Markdown. L'idée est de pouvoir <br>
@@ -51,28 +54,28 @@
           Commençons par le plus simple : les paragraphes de texte. Vous devez séparer votre texte par des lignes vides pour <br>
          créer des paragraphes. C'est très intuitif, regardez :
        </p>
-         <pre><code>
+         <pre class="code">
            Ceci est un paragraphe de texte.
 
            Ceci est un autre paragraphe de texte !
-         </code></pre>
+         </pre>
         <p>
           Cela aura pour effet de traduire le texte en HTML, comme ceci :
         </p>
-        <pre><code>
+        <pre class="code">
           &ltp>Ceci est un paragraphe de texte.&lt/p>
 
           &ltp>Ceci est un autre paragraphe de texte !&lt/p>
 
-        </code></pre>
+        </pre>
         <p>
           Normalement, vous ne pouvez pas faire de retour à la ligne simple en Markdown au sein d'un paragraphe :
         </p>
-        <pre><code>
+        <pre class="code">
           Mon paragraphe
 
           Ligne juste en-dessous
-        </code></pre>
+        </pre>
          <p>
            Heureusement, certains sites (comme le Site du Zéro) utilisent une version modifiée de Markdown (appelée Sundown)<br>
            qui autorise ces retours à la ligne simples.
@@ -87,139 +90,138 @@
         <p>
           On peut utiliser les deux notations suivantes :
         </p>
-        <pre><code>
+        <pre class="code">
           Voici un mot *important* à mon sens
 
           Voici un mot _important_ à mon sens
-        </code></pre>
+        </pre>
         <p>
           Dans les deux cas, le résultat sera le suivant :
         </p>
-       <pre><code>
+       <pre class="code">
          <**p**>Voici un mot <**em**>important</**em**> à mon sens</**p**>
 
-       </code></pre>
+       </pre>
        <h3>Emphase forte (gras)</h3>
        <p>
          On peut utiliser les deux notations suivantes :
        </p>
-       <pre><code>
+       <pre class="code">
          Voici des mots **très importants**, j'insiste !
          Voici des mots __très importants__, j'insiste !
 
-       </code></pre>
+      </pre>
        <p>
          Résultat :
        </p>
-       <pre><code>
+       <pre class="code">
          <p>Voici des mots <strong>très importants</strong>, j'insiste !</p>
 
-       </code></pre>
+       </pre>
        <h2>Les titres</h2>
        <p>
          Il y a plusieurs façons d'écrire des titres en Markdown. Voici la première syntaxe possible :
        </p>
-       <pre><code>
+       <pre class="code">
          Titre de niveau 1
         =================
 
         Titre de niveau 2
         -----------------
-       </code></pre>
-       <div class="attention">
-         <p>
+       </pre>
+
+         <p class="important">
            Notez que le nombre de - et de = importe peu, ce qui compte c'est de "souligner" un peu le titre.
          </p>
-       </div>
        <p>Traduction en HTML :
        </p>
-       <pre><code>
+       <pre class="code">
          &lth1>Titre de niveau 1&lt/h1>
 
          &lth2>Titre de niveau 2&lt/h2>
 
-       </code></pre>
+       </pre>
        <p>
          Il existe aussi une autre syntaxe pour les titres qui vous permet même de faire des titres de niveau 3 (et 4, et plus si affinités) :
        </p>
-       <pre><code>
+       <pre class="code">
          # Titre de niveau 1
 
          ## Titre de niveau 2
 
          ### Titre de niveau 3
-       </code></pre>
+       </pre>
        <h1>Les listes</h1>
        <p>
          Créer des listes en Markdown est un vrai bonheur, vous allez voir qu'il n'y a rien de plus simple ! Comme vous le savez <br>
          sûrement, il existe deux types de listes : les listes à puces et les listes numérotées.
        </p>
        <h3>Les listes à puces</h3>
-       <pre><code>
+       <pre class="code">
          * Une puce
          * Une autre puce
          * Et encore une autre puce !
-       </code></pre>
+       </pre>
        <div class="attention">
          <p>Vous pouvez remplacer les étoiles par des tirets ou des signes « + », cela aura exactement le même effet !</p>
       </div>
       <p>Résultat en HTML :</p>
-      <pre><code>
+      <pre class="code">
         &ltul>
          &ltli>Une puce&lt/li>
          &ltli>Une autre puce&lt/li>
          &ltli>Et encore une autre puce !&lt/li>
         &lt/ul>
-      </code></pre>
+      </pre>
       <p>
         Notez que vous pouvez imbriquer les listes à puces :
       </p>
-      <pre><code>
+      <pre class="code">
         * Une puce
         * Une autre puce
         * Une sous-puce
         * Une autre sous-puce
         * Et encore une autre puce !
 
-      </code></pre>
+      </pre>
       <h3>Les listes à puces numérotées</h3>
       <p>
         Pour créer une liste numérotée, c'est très intuitif : il suffit de commencer les puces par des numéros !
       </p>
-      <pre><code>
+      <pre class="code">
           1. Et de un
           2. Et de deux
           3. Et de trois
-      </code></pre>
-      <pre><code>
+      </pre>
+      <pre class="code">
         &ltol>
            &ltli>Une puce&lt/li>
            &ltli>Une autre puce&lt/li>
            &ltli>Et encore une autre puce !&lt/li>
         &lt/ol>
 
-      </code></pre>
+      </pre>
       <h1>Les citations</h1>
       <p>
         Les citations fonctionnent comme les réponses des e-mails : vous devez précéder les lignes citées d'un chevron «> »!
       </p>
-      <pre><code>
+      <pre class="code">
         > Ceci est un texte cité. Vous pouvez répondre
 
         > à cette citation en écrivant un paragraphe
 
         > normal juste en-dessous !
-      </code></pre>
+      </pre>
       <p>Résultat :</p>
-      <pre><code>
+      <pre class="code">
         <blockquote><p>Ceci est un texte cité. Vous pouvez répondre à cette
         citation en écrivant un paragraphe normal juste en-dessous
         !</p></blockquote>
-      </code></pre>
+      </pre>
       <p>
         Sachez que vous pouvez imbriquer des citations et du Markdown à l'intérieur des citations !
       </p>
-      <pre><code>
+      <pre class="code">
       > Une citation
       >
       > > Une réponse à la citation
@@ -229,6 +231,6 @@
       > > * Puce
       > > * Autre puce
 
-      </code></pre>
+      </pre>
   </body>
 </html>

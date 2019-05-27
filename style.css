@@ -1,0 +1,42 @@
+pre code {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-family: monospace;
+  white-space: pre;
+  color-block: black
+}
+html {
+  background-image: linear-gradient(grey, white,grey);
+width: auto;
+height: auto;
+}
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 10px 10px 10px;
+  border: 5px solid grey;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  opacity: 1;
+}
+h1 {
+  text-align: center;
+  color: #E8D4D1;
+
+
+}
+
+.grostitre {
+  color: red;
+}
+.code {
+  color: grey;
+  border: 1px solid black;
+  text-align: left;
+}
