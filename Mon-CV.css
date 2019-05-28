@@ -1,0 +1,58 @@
+.page{
+  width: 780px;
+  margin: auto;
+  font-size: 16px;
+  font-family: serif;
+  padding: 40px;
+  border: 5px solid #3388BB;
+  border-radius: 10px;
+  box-shadow: 2px 4px 3px black;
+  background-color: #FFFFFF;
+
+}
+.infophoto{
+  height : 250px;
+}
+.info{
+  float: left;
+}
+.photo{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+
+  float: right;
+}
+strong{
+  font-size: 26px;
+}
+.section{
+  margin-bottom: 70px;
+  text-align: justify;
+
+}
+h2{
+  font-size: 28px;
+  color: #3388BB;
+  text-transform: uppercase;
+  border-bottom: 3px solid #3388BB;
+}
+.sec-right{
+  float: left;
+}
+.duree{
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+}
+.sec-left{
+  margin-left: 150px;
+  margin-top: 37px;
+}
+.titre{
+  font-weight: bold;
+  font-size: 20px;
+}
+#forma-right p{
+  margin-bottom: 37px;
+}
