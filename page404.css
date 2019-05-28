@@ -1,0 +1,20 @@
+.erro{
+  color: red;
+  position:  absolute;
+  top: 270px;
+  left: 500px;
+  z-index: 1;
+  font-family:
+}
+body{
+  background-color: #F8F8F8;
+}
+.dino{
+  width: 50%;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  z-index: 0;
+
+
+}
