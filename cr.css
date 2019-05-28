@@ -1,0 +1,79 @@
+.logo{
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+
+}
+body {
+  background-image: url(groups-cr.jpg);
+  background-repeat: no-repeat;
+  background-color: white;
+}
+.blockcitation{
+  width: 600px;
+  text-sizes:20px;
+  border: 1px solid white;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ffff);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+  position: relative;
+  top: 500px;
+}
+.apropos{
+  width: 800px;
+  border: 1px solid white;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ffff);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+  position: relative;
+  top: 700px;
+
+}
+h2{
+  text-align: center;
+    color: grey
+}
+.bouton{
+  position: relative;
+  width: auto;
+  left: 530px
+
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  position: absolute;
+  top: 2000px;
+  left: 500px;
+
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  display: block;
+  color: white;
+  position: absolute;
+  top: 2025px;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+
+}
+.basdepage{
+display: block;
+color: white;
+position: absolute;
+top: 2000px;
+left: 25%;
+width: 200px;
+height: 80px;
+
+}
