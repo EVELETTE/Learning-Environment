@@ -1,0 +1,58 @@
+.icon{
+  position: absolute;
+  top: 265px;
+  left: 520px;
+  width: 35px;
+}
+.nom{
+  font-style: italic;
+  font-size: 18px;
+  color: white;
+}
+.numero{
+  font-style: italic;
+  font-size:;
+  color: white;
+}
+.email{
+  font-style: italic;
+  font-size: ;
+  position: relative;
+  left: 60px;
+  top: 30px;
+  font-style:;
+  font-family:monospace;
+  font-size: 18px;
+  color: white;
+}
+.social{
+  position: relative;
+  color: white;
+  top: 35px;
+  font-style:;
+  font-family:monospace;
+  font-size: 18px;
+  text-align: center;
+}
+.vcard{
+  width: 500px;
+  margin: auto;
+  font-size: 16px;
+  font-family: serif;
+  padding: 40px;
+  border: 5px solid grey ;
+  border-radius: 10px;
+  box-shadow: 2px 4px 3px black;
+  background-image: url(font-geo6.jpg);
+}
+.image{
+  width: 120px;
+  float: right;
+  border-radius: 10px;
+}
+.incongmail{
+  width: 35px;
+  position: absolute;
+  top: 220px;
+  left: 475px;
+}
